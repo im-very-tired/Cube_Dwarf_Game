@@ -11,6 +11,8 @@ int main()
     string entered_pass;
     string pass = "shrimp";
 
+    int day = 1;
+
     cout << "enter user name: \n";// might keep the space in username
     cin >> user_name;//read entered username
     if (user_name == "test_acc_0")
@@ -20,6 +22,12 @@ int main()
         if (entered_pass == pass)//password checker
         {
             cout << "Hello Dev" << user_name << ", Welcome to a purgatory of your own making\n";
+
+            while (day != 10)
+            {
+                cout << day << endl;
+                day++;
+            }
 
             system("PAUSE"); //end program
             return 0;
