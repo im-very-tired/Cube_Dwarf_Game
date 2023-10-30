@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "C:\\Users\\Joyce\\vs_projs\\Cube_Dwarf_Game\\include"
             ],
             "defines": [
                 "_DEBUG",
